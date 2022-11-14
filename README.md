@@ -1,6 +1,6 @@
 # Quiz planet Earth
 
-<img src="./.jpg" alt="Image" width="auto">
+<img src="./Earth.jpg" alt="Image" width="auto">
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
