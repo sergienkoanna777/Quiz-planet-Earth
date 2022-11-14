@@ -1,0 +1,71 @@
+body{
+    background-image:url("regnum_picture_1466491371539586_normal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    display: flex;
+    align-items: center;
+    background-color: rgb(27, 50, 66);
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(27, 149, 248);
+    font-size: 50px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(1px);
+        width: 950px;
+        overflow: hidden;
+        
+}
+
+label{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.question{
+    padding: 15px;
+    color: rgb(1, 1, 41);
+}
+
+.btn{
+    background-color:rgb(27, 149, 248);
+    color: rgb(1, 1, 41);
+    width: 30%;
+    align-self: center;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#show{
+    margin: auto;
+    font-size: 30px;
+    color: #eeff00;
+    font-weight: bold;
+    padding: 30px;
+}
+
+@media all and (max-width: 800px){
+
+    h1{
+    font-size: 30px;
+}
+
+}
